@@ -20,7 +20,15 @@ How to use
 ----------
 
 Prepare a .csv file with a single column, where each row contains the name
-of a place/city. Then execute the script like:
+of a place/city. An example could be this (when viewed in a text editor):
+
+::
+
+    London;
+    Berlin;
+    Tokyo;
+
+Then execute the script like:
 
     $ python places.py <my-visited-places.csv>
 
